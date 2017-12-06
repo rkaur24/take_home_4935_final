@@ -1,0 +1,19 @@
+{
+  "name": "take_home_4935_final",
+  "version": "1.0.0",
+  "description": "",
+  "main": "routes.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "boom": "^7.1.1",
+    "dotenv": "^4.0.0",
+    "hapi": "^17.1.1",
+    "joi": "^13.0.2",
+    "monk": "^6.0.5"
+  }
+}

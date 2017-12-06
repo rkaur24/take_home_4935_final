@@ -1,0 +1,30 @@
+Instructions - 
+You need Postman to send GET/POST/PATCH/DELETE requests.
+
+To run this APP please use the following steps on POSTMAN.
+
+todo Collection:
+For getting todo list from the database:
+	enter: http://localhost:3000/todo/ in the url and choose GET request and click on Send button in Postman.
+
+For getting todo by entering query in url from the database:
+	enter: http://localhost:3000/todo?listItem=ux in the url and choose GET request and click on Send button in Postman.
+
+For posting todo item to database:
+	enter: http://localhost:3000/todo/ in the url and choose POST request, in "BODY" section enter the details of todo item and click on Send button in Postman.
+
+For updating todo details in database:
+	general: ttp://localhost:3000/todo/{id}
+	enter: ttp://localhost:3000/todo/h5a28639ba8cf382f1011d46d in the url and choose PATCH request, in "BODY" section enter the details of todo item and click on Send button in Postman.
+
+For deleting todo list from database:
+	enter: http://localhost:3000/todo/ in the url and choose DELETE request and click on Send button in Postman.
+
+
+Third Party Libraries - 
+1. Joi - for validation.
+2. dotenv - for environment variables.
+3. BOOM - error handling/messages.
+4. monk - to access database.
+5. mongodb - database.
+6. hapi - server.

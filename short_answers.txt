@@ -1,0 +1,17 @@
+Question 1: configuration-centric in hapijs:
+Answer: hapi's configuration-centric approach means writing testable and maintainable applications that can be scaled easily.
+
+Question 2: Streams in NodeJS:
+Answer: There are four types of streams in NodeJS-
+1) Readable: Readable streams are those from which you can read data. For example fs.createReadStream()
+2) Writable: Writable streams are those to which you can write data. For example fs.createWriteStream()
+3) Duplex: Duplex streams are both readable and writable. For example net.Socket()
+4) Transform: Transform streams are duplex streams that can modify/tranform data as it is written and read. For example zlib.createDefalte()
+
+Question 3: Event Emitter
+Answer: In Node JS object emit events. For example fs.readStream emits an event when the file is opened. All objects which emit events are the examples of events.EventEmitter. Code example:
+
+var events = require('events')
+var event_emitter = new events.EventEmitter()
+
+when event_emitter face any error, it emits error event. When a new listener is added, newListener event is fired and when a listener is removed then removeListener event is fired. EventEmitter provides properties like "on" and "emit". "on" used to bind the functions and "emit" is used to fire an event.
